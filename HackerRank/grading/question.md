@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Platform** | HackerRank |
-| **Language** | cpp |
+| **Language** | Java |
 | **Solved On** | 2026-03-21 |
 
 ---
