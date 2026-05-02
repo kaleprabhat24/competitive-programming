@@ -1,0 +1,55 @@
+# Break Up Practice Problem in Dynamic programming
+
+| Field | Value |
+|-------|-------|
+| **Platform** | CodeChef |
+| **Language** | java |
+| **Solved On** | 2026-05-02 |
+
+---
+
+## Problem Statement
+
+### Break Up
+
+## Zonal Computing Olympiad 2015, 29 Nov 2014
+
+**
+
+A sequence of positive integers is a palindrome if it reads the same in both directions. The sequences 23, 45, 23 and 23, 45, 56, 23, 23, 56, 45, 23 are examples of palindromes. The sequence 23, 45, 56 is not a palindrome. The sequence 23, 32 is not a palindrome either. A sequence of length 1 is always a palindrome.
+
+A given sequence of integers can be broken up into parts such that each of them contains some consecutive elements from the original sequence, and such that each part is a palindrome. Consider the sequence 34,45,34,56,34. This can be broken up into 3 palindrome sequences with 34, 45, 34 constituting the first, 56 constituting the second and 34 constituting the third. It can also be broken in 5 palindrome sequences each containing a single number. Thus, there may be many different ways to break up a given sequence into palindrome sequences. We want to determine the smallest number *C* such that the given sequence can be broken up into *C* palindrome sequences.
+
+Observe that for any palindrome sequence the value of *C* is 1. For the sequence 34, 45, 34, 56, 34 the answer is 3. Your aim is to write a program that computes this number for any given sequence.
+
+### Input format
+
+The first line contains *N*, the number of values in the sequence.
+
+This is followed by a line containing *N* positive integers separated by space giving the values
+of the sequence.
+
+### Output format
+
+Output a single integer giving the smalllest number *C* so that the given sequence can broken up into *C*palindrome sequences.
+
+### Test data
+
+You may assume that all integers in the input are in the range 1 to 10^8 inclusive.
+
+Subtask 1 (100 marks)** : 1 ≤ *N* ≤ 300.
+
+### Sample 1:
+
+Input
+
+Output
+
+```
+5
+34 45 34 56 34
+```
+
+```
+3
+```
