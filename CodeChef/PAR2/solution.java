@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        if (sc.hasNextInt()) {
+            int t = sc.nextInt();
+            while (t-- > 0) {
+                int n = sc.nextInt();
+                if (n % 2 == 0) {
+                    System.out.println("Yes");
+                } else {
+                    System.out.println("No");
+                }
+            }
+        }
+        sc.close();
+    }
+}
