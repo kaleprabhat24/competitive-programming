@@ -1,10 +1,10 @@
-# Second Max of Three Numbers Practice Problem in Basic Math
+# Second Max of Three Numbers Practice Problem in 500 difficulty rating
 
 | Field | Value |
 |-------|-------|
 | **Platform** | CodeChef |
 | **Language** | java |
-| **Solved On** | 2026-04-10 |
+| **Solved On** | 2026-08-19 |
 
 ---
 
