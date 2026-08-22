@@ -1,0 +1,64 @@
+# Chairs Requirement Practice Problem in 500 difficulty rating
+
+| Field | Value |
+|-------|-------|
+| **Platform** | CodeChef |
+| **Language** | java |
+| **Solved On** | 2026-08-22 |
+
+---
+
+## Problem Statement
+
+### Chairs Requirement
+
+Chef's coding class is very famous in Chefland.
+
+This year XXX students joined his class and each student will require one chair to sit on. Chef already has YYY chairs in his class. Determine the minimum number of new chairs Chef must buy so that every student is able to get one chair to sit on.
+
+### Input Format
+
+- The first line contains a single integer TTT — the number of test cases. Then the test cases follow.
+
+- The first and only line of each test case contains two integers XXX and YYY — the number of students in the class and the number of chairs Chef already has.
+
+### Output Format
+
+For each test case, output the minimum number of extra chairs Chef must buy so that every student gets one chair.
+
+### Constraints
+
+- 1≤T≤10001 \leq T \leq 10001≤T≤1000
+
+- 0≤X,Y≤1000 \leq X, Y \leq 1000≤X,Y≤100
+
+### Sample 1:
+
+Input
+
+Output
+
+```
+4
+20 14
+41 41
+35 0
+50 100
+
+```
+
+```
+6
+0
+35
+0
+
+```
+
+### Explanation:
+
+- **Test case 1:** There are 202020 students in the class and Chef has 141414 chairs already. Therefore Chef must buy 666 more chairs.
+
+- **Test case 2:** There are 414141 students in the class and Chef already has exactly 414141 chairs. Therefore Chef does not need to buy any more chairs.
+
+- **Test case 3:** There are 353535 students in the class and Chef has no chairs initially. Therefore Chef must buy 353535 chairs.
