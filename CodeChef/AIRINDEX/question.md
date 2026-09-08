@@ -1,0 +1,111 @@
+# Air Quality Index Practice Problem in 500 difficulty rating
+
+| Field | Value |
+|-------|-------|
+| **Platform** | CodeChef |
+| **Language** | java |
+| **Solved On** | 2026-09-08 |
+
+---
+
+## Problem Statement
+
+### Air Quality Index
+
+In the light of `G-20` summit, government has decided to keep the average air quality index (AQI) **strictly below** 100100100.
+
+On some random day, Chef measures the AQI and found the value to be XXX.
+
+Find whether the government was able to keep the AQI within limits.
+
+### Input Format
+
+- The input consists of an integer XXX — the AQI Chef measured.
+
+### Output Format
+
+Output `YES`, if the government was able to keep the AQI within limits and `NO` otherwise.
+
+You may print each character of the string in uppercase or lowercase (for example, the strings `YES`, `yEs`, `yes`, and `yeS` will all be treated as identical).
+
+### Constraints
+
+- 1≤X≤1501 \leq X \leq 1501≤X≤150
+
+### Sample 1:
+
+Input
+
+Output
+
+```
+50
+
+```
+
+```
+YES
+
+```
+
+### Explanation:
+
+The AQI is strictly less than 100100100. Thus, the government was able to keep the AQI within limits.
+
+### Sample 2:
+
+Input
+
+Output
+
+```
+100
+
+```
+
+```
+NO
+
+```
+
+### Explanation:
+
+The AQI is equal to 100100100. Thus, the government was not able to keep the AQI within limits.
+
+### Sample 3:
+
+Input
+
+Output
+
+```
+99
+
+```
+
+```
+YES
+```
+
+### Explanation:
+
+The AQI is strictly less than 100100100. Thus, the government was able to keep the AQI within limits.
+
+### Sample 4:
+
+Input
+
+Output
+
+```
+145
+
+```
+
+```
+NO
+```
+
+### Explanation:
+
+The AQI is greater than 100100100. Thus, the government was not able to keep the AQI within limits.
