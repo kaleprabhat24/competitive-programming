@@ -4,7 +4,7 @@
 |-------|-------|
 | **Platform** | CodeChef |
 | **Language** | java |
-| **Solved On** | 2026-09-28 |
+| **Solved On** | 2026-09-29 |
 
 ---
 
