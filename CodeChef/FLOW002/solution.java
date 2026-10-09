@@ -1,23 +1,24 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 class Codechef {
     public static void main (String[] args) throws java.lang.Exception {
+        // Create a Scanner object to read input from standard input
         Scanner sc = new Scanner(System.in);
         
-        // Read the number of test cases
+        // Read the total number of test cases
         if (sc.hasNextInt()) {
-            int T = sc.nextInt();
+            int t = sc.nextInt();
             
-            while (T-- > 0) {
-                // Read A and B
+            // Loop through each test case
+            for (int i = 0; i < t; i++) {
                 int a = sc.nextInt();
                 int b = sc.nextInt();
                 
-                // Calculate and print the remainder
-                System.out.println(a % b);
+                // Calculate the remainder using the modulo operator (%)
+                int remainder = a % b;
+                
+                // Print the result on a new line
+                System.out.println(remainder);
             }
         }
+        sc.close();
     }
 }
