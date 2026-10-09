@@ -1,10 +1,10 @@
-# Find Remainder Practice Problem in Basic Math
+# Find Remainder Practice Problem in 500 difficulty rating
 
 | Field | Value |
 |-------|-------|
 | **Platform** | CodeChef |
 | **Language** | java |
-| **Solved On** | 2026-04-10 |
+| **Solved On** | 2026-10-09 |
 
 ---
 
