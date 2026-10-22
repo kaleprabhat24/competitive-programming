@@ -1,10 +1,10 @@
-# Sum of Digits Practice Problem in Basic Math
+# Sum of Digits Practice Problem in 500 difficulty rating
 
 | Field | Value |
 |-------|-------|
 | **Platform** | CodeChef |
 | **Language** | java |
-| **Solved On** | 2026-04-13 |
+| **Solved On** | 2026-10-22 |
 
 ---
 
