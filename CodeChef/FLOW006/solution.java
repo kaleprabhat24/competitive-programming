@@ -1,24 +1,24 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-    public static void main (String[] args) throws java.lang.Exception
-    {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
         
-        while (t-- > 0) {
-            int n = sc.nextInt();
-            int sum = 0;
+        // Read the total number of test cases
+        if (sc.hasNextInt()) {
+            int t = sc.nextInt();
             
-            while (n > 0) {
-                sum += n % 10;
-                n /= 10;
+            // Loop through each test case
+            while (t-- > 0) {
+                int n = sc.nextInt();
+                int sum = 0;
+                
+                // Extract digits and calculate the sum
+                while (n > 0) {
+                    sum += n % 10; // Extract the last digit
+                    n /= 10;       // Remove the last digit
+                }
+                
+                // Output the result for the current test case
+                System.out.println(sum);
             }
-            
-            System.out.println(sum);
         }
+        sc.close();
     }
 }
