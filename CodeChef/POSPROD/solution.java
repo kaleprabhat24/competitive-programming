@@ -1,3 +1,11 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef {
+    public static void main (String[] args) throws java.lang.Exception {
+        Scanner sc = new Scanner(System.in);
+        
         if (!sc.hasNextInt()) return;
         int t = sc.nextInt();
         
@@ -16,9 +24,3 @@
             }
             
             long ans = (pos * (pos - 1)) / 2 + (neg * (neg - 1)) / 2;
-            System.out.println(ans);
-        }
-        
-        sc.close();
-    }
-}
